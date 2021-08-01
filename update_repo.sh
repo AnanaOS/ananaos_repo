@@ -4,11 +4,14 @@
 
 git pull
 
+# Going to the right folder
+cd x86_64
+
 # Deleting all files except the packages
 rm -rf harpy_repo*
 
 # Creating new database
-repo-add -n R harpy_repo.db.tar.gz *.tpkg.tar.zst
+repo-add harpy_repo.db.tar.gz *.pkg.tar.zst
 
 # Asking if the user want to push the changes
 
