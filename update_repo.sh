@@ -8,10 +8,10 @@ git pull
 cd x86_64
 
 # Deleting all files except the packages
-rm -rf harpy_repo*
+rm -rf ananaos_repo*
 
 # Creating new database
-repo-add harpy_repo.db.tar.gz *.pkg.tar.zst
+repo-add ananaos.db.tar.gz *.pkg.tar.zst
 
 # Asking if the user want to push the changes
 
