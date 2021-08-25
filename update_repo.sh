@@ -26,7 +26,7 @@ if [ "$askPush" == "y" ] || [ "$askPush" == "" ]
     cd ..
 
     # Putting the new packages in the repo
-    git add .
+    git add *
 
     #Showing what is different
     git status
